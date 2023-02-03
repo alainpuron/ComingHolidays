@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #00000027;
+    color: #fff;
+    
+  }
+
+.toggle-options {
+display: block; 
+ }
+
+.toggle-options a{
+    text-decoration: none;
+    color: white;
+}
+
+.toggle-options a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.container{
+    padding: 10%;
+    margin-top: 1%;
+    text-align: center;
+    background-position: 20%;
+    background-size: cover;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+}
+
+#christmas {
+background-image: url(/images/chrismas.jpg); 
+color: rgb(241, 235, 54);
+}
+
+
+#valentines{
+background-image: url(/images/valentine.jpg);
+color: #d0186b;
+}
+#easter{
+    background-image: url(/images/easter.jpg);
+    color: aqua;
+}
+#veterns{
+background-image: url(/images/veterns.jpg);
+color: #fff;
+
+
+
+}
+#FourthOfJuly{
+    background-image: url(/images/4thjuly.jpg);
+    color: rgb(3, 3, 255);
+    
+
+}
+
+#halloween{
+    background-image: url(/images/halloween.jpg);
+    color: orangered;
+}
+
+
+#thanksgiving{
+    background-image: url(/images/thanksgiving.jpg);
+    color: yellow;
+
+}
+.background{
+    background: #0000005a;
+    padding: 10%;
+    margin: auto;
+    border-radius: 50%;
+    width: fit-content;
+
+}
+
+@media only screen and (max-width: 720px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 5%;
+        font-size: x-small;
+    }
+    .background {
+        width: 80%;
+    }
+    .toggle-options a{
+        display: none;
+    }
+}
