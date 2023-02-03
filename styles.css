@@ -38,41 +38,41 @@ display: block;
 }
 
 #christmas {
-background-image: url(images/chrismas.jpg); 
+background-image: url(chrismas.jpg); 
 color: rgb(241, 235, 54);
 }
 
 
 #valentines{
-background-image: url(images/valentine.jpg);
+background-image: url(valentine.jpg);
 color: #d0186b;
 }
 #easter{
-    background-image: url(images/easter.jpg);
+    background-image: url(easter.jpg);
     color: aqua;
 }
 #veterns{
-background-image: url(images/veterns.jpg);
+background-image: url(veterns.jpg);
 color: #fff;
 
 
 
 }
 #FourthOfJuly{
-    background-image: url(images/4thjuly.jpg);
+    background-image: url(4thjuly.jpg);
     color: rgb(3, 3, 255);
     
 
 }
 
 #halloween{
-    background-image: url(images/halloween.jpg);
+    background-image: url(halloween.jpg);
     color: orangered;
 }
 
 
 #thanksgiving{
-    background-image: url(images/thanksgiving.jpg);
+    background-image: url(thanksgiving.jpg);
     color: yellow;
 
 }
